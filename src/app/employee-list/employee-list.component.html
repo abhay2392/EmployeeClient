@@ -1,0 +1,22 @@
+
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Gender</th>
+        <th>Salary</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of Employee">
+        <td>{{employee.FirstName}}</td>
+        <td>{{employee.LastName}}</td>
+        <td>{{employee.Salary}}</td>
+        <td>{{employee.Gender}}</td>
+
+      </tr>
+    </tbody>
+  </table>
+
+
